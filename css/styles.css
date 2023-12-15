@@ -1,0 +1,37 @@
+body{
+    background-color: #c1b5de;
+}
+
+.container{
+
+}
+
+#title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    margin: 25px 25px 0px 0px;
+    text-align: center;
+}
+
+#worldMap{
+    width: 1400px;
+    height: 700px;
+    background-color: #C6FAD6;
+    margin: 40px 40px 10px 40px;
+    padding: 10px 5px 5px 5px;
+    border: 1px solid grey;
+}
+
+#infoCountry{
+    margin: auto;
+    width:80%;
+    height:60%;
+}
+
+.hoverCountry{
+    fill: #99d6f4;
+}
+
+.chosenCountry{
+    fill: #0BACFF;
+}

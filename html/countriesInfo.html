@@ -8,9 +8,38 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <section>
-        <div id="title"> Select a country for see information </div>
+    <section class="container">
+        <div id="title"> SELECT A COUNTRY TO SEE INFORMATION </div>
         <div id="worldMap"></div>
+        <div id="infoCountry">
+            <div>
+                <img id="countryFlag" src="#"/>
+            </div>
+            <div>
+                <span class="spanLabel">Name</span>
+                <span id="countryName"></span>
+            </div>
+            <div id="infoCapital">
+                <span class="spanLabel">Capital</span>
+                <span id="countryCapital"></span>
+            </div>
+            <div id="infoPopulation">
+                <span class="spanLabel">Population</span>
+                <span id="countryPopulation"></span>
+            </div>
+            <div id="infoRegion">
+                <span class="spanLabel">Region</span>
+                <span id="countryRegion"></span>
+            </div>
+            <div id="infoCurrency">
+                <span class="spanLabel">Currency</span>
+                <span id="countryCurrency"></span>
+            </div>
+            <div id="infoLanguages">
+                <span class="spanLabel">Languages</span>
+                <table id="tblLanguages"></table>
+            </div>
+        </div>
     </section>
 </body>
 </html>
